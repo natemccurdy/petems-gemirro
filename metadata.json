@@ -1,0 +1,45 @@
+{
+  "name": "petems-gemirro",
+  "version": "0.1.0",
+  "author": "petems",
+  "summary": "Install the Gem Mirror tool Gemirro",
+  "license": "Apache 2.0",
+  "source": "https://github.com/petems/petems-gemirro",
+  "project_page": "https://github.com/petems/petems-gemirro",
+  "issues_url": "https://github.com/petems/petems-gemirro/issues",
+  "dependencies": [{
+    "name": "puppetlabs-stdlib",
+    "version_requirement": ">= 1.0.0"
+  }],
+  "operatingsystem_support": [{
+    "operatingsystem": "Fedora",
+    "operatingsystemrelease": [
+      "20",
+      "21",
+      "22"
+    ]
+  }, {
+    "operatingsystem": "Ubuntu",
+    "operatingsystemrelease": [
+      "16.04"
+    ]
+  }, {
+    "operatingsystem": "Debian",
+    "operatingsystemrelease": [
+      "7",
+      "8"
+    ]
+  }, {
+    "operatingsystem": "RedHat",
+    "operatingsystemrelease": [
+      "6",
+      "7"
+    ]
+  }, {
+    "operatingsystem": "CentOS",
+    "operatingsystemrelease": [
+      "6",
+      "7"
+    ]
+  }]
+}
